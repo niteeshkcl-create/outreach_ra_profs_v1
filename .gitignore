@@ -1,0 +1,17 @@
+# Sensitive Credentials
+credentials.json
+credentials_gmail.json
+token.json
+
+# System Files
+.DS_Store
+__pycache__/
+
+# Environments
+.venv/
+env/
+venv/
+
+# Data and Personal Files
+data/
+resume/

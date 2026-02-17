@@ -1,0 +1,13 @@
+# agent.yaml
+name: HuskyOutreachSystem
+model: gemini-3-pro
+agents:
+  - name: Scout
+    tools: [browser]
+    instructions: "Visit UW faculty pages, click on names, and extract research bios."
+  - name: Architect
+    tools: [code_editor]
+    instructions: "Compare bio text against local resume_A.pdf, resume_B.pdf, resume_C.pdf."
+  - name: Ghostwriter
+    tools: [gmail]
+    instructions: "Draft 15 emails daily into Gmail Drafts. Check against sent_log.csv to avoid repeats."
